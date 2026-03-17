@@ -27,17 +27,34 @@
   background: #a4b3e9;
 }
 
-.wrapper-box2 {
+.q1--perimeter {
   display: table;
+
+}
+
+.wrapper-box2 {
   display: table-cell;
   vertical-align: middle;
   text-align: center;
 
 }
 
-.parent-text3 {
+.child-text {
   padding: 10px;
-  margin: 0 auto;
   background: #fff;
   font-size: 16px;
+  display: inline-block;
+}
+
+.wrapper-box3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.child-text2 {
+  padding: 10px;
+  background: #fff;
+  font-size: 16px;
+  display: block;
 }
