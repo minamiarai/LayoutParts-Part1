@@ -10,8 +10,34 @@
 }
 
 .parent {
+  text-align: center;
+}
+
+.parent-text {
   display: inline-block;
   background: #a4b3e9;
   padding: 10px;
+}
+
+.parent-text2 {
+  width: 90px;
+  margin: 0 auto;
   text-align: center;
+  padding: 10px;
+  background: #a4b3e9;
+}
+
+.wrapper-box2 {
+  display: table;
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+
+}
+
+.parent-text3 {
+  padding: 10px;
+  margin: 0 auto;
+  background: #fff;
+  font-size: 16px;
 }
