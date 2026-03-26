@@ -46,15 +46,27 @@
   display: inline-block;
 }
 
-.wrapper-box3 {
+.d--flex {
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
 }
 
-.child-text2 {
+.flex--text {
   padding: 10px;
-  background: #fff;
   font-size: 16px;
-  display: block;
+  background: #fff;
+}
+
+.p--relative{
+  position: relative;
+}
+
+.p--absolute{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  padding: 10px;
+  background: #a4b3e9;
 }
