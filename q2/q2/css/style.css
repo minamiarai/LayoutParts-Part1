@@ -9,7 +9,7 @@
 .text--card {
   list-style: none;
   width: 200px;
-  margin: 30px;
+  margin-left: 60px;
   outline: 10px solid #655;
   box-shadow: 0 0 0 6px #655;
   border-radius: 13px;
@@ -17,6 +17,6 @@
   background: #d2b48c;
 }
 
-.text:first-child {
-  margin: 0;
+.text--card:first-child {
+  margin-left: 0;
 }
